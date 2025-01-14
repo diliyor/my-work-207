@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: lightgray;
+}
+.container {
+    width: 1100px;
+    margin: auto;
+    background-color: white;
+}
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    position: relative;
+    padding-bottom: 25px;
+}
+.top .top-i i {
+    font-size: 30px;
+    color: grey;
+}
+.top .top-i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -80px;
+    margin-right: 100px;
+}
+.top .top-i h1 {
+    margin-left: 30px;
+    color: grey;
+}
+.top .label ul {
+    display: flex;
+    justify-content: center;
+    border: 1px lightgray solid;
+}
+.top .label ul li {
+    margin: 30px;
+    list-style: none;
+    font-size: 20px;
+    height: 40px;
+}
+.top .label ul li a {
+    text-decoration: none;
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-weight: 800;
+}
+.top .label {
+    margin-top: 30px;
+}
+.top .label ul li .a4 {
+    color: black;
+    padding: 0px 20px 40px 20px;
+    border: none;
+    border-bottom: 5px solid blue;
+}
+.top .label ul li .a4:hover {
+    color: black;
+    border: none;
+    padding: 0px 20px 40px 20px;
+    border-bottom: 5px solid blue;
+    transition: 0.4s;
+}
+
+.header-img img {
+    width: 100%;
+}
+.block {
+    background-color: brown;
+    color: white;
+    padding: 10px 25px 10px 25px;
+    width: 380px;
+    position: relative;
+    top: -30px;
+    left: -325px;
+}
+
+
+
+.container1 {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 800px;
+  }
+  
+  .form-container1 {
+    width: 45%;
+  }
+  
+  .form-container input,
+  .form-container textarea,
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: #d6a5a5;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #c08484;
+  }
+  
+  .info-container {
+    width: 45%;
+    font-size: 14px;
+  }
+  
+  .info-container a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .info-container a:hover {
+    text-decoration: underline;
+  }
+  
+  .info-container p {
+    margin: 8px 0;
+  }
